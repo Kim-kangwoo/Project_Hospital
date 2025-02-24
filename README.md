@@ -1,10 +1,10 @@
 # Project_Hospital
-Spring & Mybatis 기반 병원진료예약 프로젝트 <br>
+Spring & Mybatis 기반 병원진료예약 & 의료관계자 프로젝트 <br>
 <br>
 <br>
 ## 프로젝트 소개
 ### 프로젝트 목적
-- 오프라인으로 병원에 대한 정보 및 예약이 어려우신 분들을 위해<br> 온라인으로 해당 병원의 의료정보 및 진료 예약을 간편하게 도와주는 서비스
+- 오프라인으로 병원에 대한 정보 및 예약이 어려우신 분들을 위해 온라인으로 해당 병원의 의료정보 및 진료 예약을 간편하게 도와주는 서비스 및 의료진들이 스스로 진료스케줄과 게시글 답변을 등록 할 수 있는 서비스
 ### 주요기능
 1. 방문자의 상태에 따른 진료과, 의료진을 선택 정보 조회 및 예약
 2. 방문자의 진료스케줄과 과거 진료기록 조회
@@ -39,3 +39,14 @@ Spring & Mybatis 기반 병원진료예약 프로젝트 <br>
 - **Database** Oracle
 - **Build Tool** Maven
 - **Tools** Eclipse
+<br>
+
+## 담당 기능 샘플 사진
+### 의료관리자 메인페이지
+![Image](https://github.com/user-attachments/assets/6840513c-e0fc-41d1-bf2b-7e5e12484a1b)
+### 의료관리자 진료스케줄 조회 및 수정
+![Image](https://github.com/user-attachments/assets/d8e6911e-aa18-43f0-bf2a-bbc32a15bbe1)
+### 의료관리자 상세스케줄 조회
+![Image](https://github.com/user-attachments/assets/e8ae7c15-e6cb-4281-b46b-48bc18ded01d)
+### 의료관리자 과거진료기록 조회
+![Image](https://github.com/user-attachments/assets/28218594-3aca-441e-9233-0d937800c20a)
