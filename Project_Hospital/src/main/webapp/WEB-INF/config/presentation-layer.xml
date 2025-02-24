@@ -26,10 +26,10 @@
 	<!-- 업로드 파일 읽어오기 위한 설정 -->
 	<!-- C:/MyStudy/Project_Hospital/Images/Dr_Profile -->
 	<mvc:resources mapping="/images/DrProfiles/**" 
-	location="file:/C:/MyStudy/Project_Hospital/Images/Dr_Profile/,
-		      file:/C:/MyStudy/Project_Hospital/Images/Department/
+	location="file:/C:/MyStudy/Project_Hospital/Project_Hospital_img/Images/Dr_Profile/,
+		      file:/C:/MyStudy/Project_Hospital/Project_Hospital_img/Images/Department/
 		      " />
-	<mvc:resources mapping="/Project_Hospital_uploadedFiles/**" location="file:/C:/MyStudy/Project_Hospital/" />
+	<mvc:resources mapping="/Project_Hospital_uploadedFiles/**" location="file:/C:/MyStudy/Project_Hospital/Project_Hospital_img" />
 	
 	<!-- 스프링 ViewResolver 등록 -->
 	<bean id="viewResolver" 
